@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  font-family: "Red Hat Display", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #1f2f56;
+  margin: 0%;
+}
+
+* body {
+  background: #e0e8ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.order-summary-component {
+  text-align: center;
+  background: white;
+  height: 525px;
+  border-radius: 20px;
+  max-width: 325px;
+  -webkit-box-shadow: rgba(7, 12, 18, 0.096) 0px 10px 10px 1px;
+          box-shadow: rgba(7, 12, 18, 0.096) 0px 10px 10px 1px;
+}
+
+.order-summary-component header img {
+  width: 100%;
+  position: relative;
+  border-radius: 20px 20px 0px 0px;
+  z-index: 10;
+}
+
+.order-summary-component section .order-summary-text h1 {
+  font-size: 25px;
+  font-weight: 900;
+  padding: 1.5rem 0rem 1rem 0rem;
+}
+
+.order-summary-component section .order-summary-text p {
+  color: #7280a7;
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0rem 1.95rem;
+}
+
+.order-summary-component section .selected-plan {
+  padding: 1rem 0rem 1rem 0rem;
+  border-radius: 20px;
+  margin: 1rem;
+  background-color: #f5f7ff;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.order-summary-component section .selected-plan svg {
+  margin-left: -1.5rem;
+}
+
+.order-summary-component section .selected-plan p {
+  line-height: 1.5;
+  color: #7280a7;
+  margin-left: -1rem;
+}
+
+.order-summary-component section .selected-plan p span {
+  font-weight: 900;
+}
+
+.order-summary-component section .selected-plan a {
+  font-size: 14px;
+  color: #3829e0;
+  font-weight: 700;
+  padding-top: 0.75em;
+  margin-right: -1.25em;
+}
+
+.order-summary-component section .selected-plan a:hover {
+  color: rgba(88, 51, 255, 0.671);
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.order-summary-component section .checkout {
+  position: relative;
+}
+
+.order-summary-component section .checkout .payment-button {
+  background-color: #3829e0;
+  color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(102, 102, 102, 0.205) 0px 10px 10px 1px;
+          box-shadow: rgba(102, 102, 102, 0.205) 0px 10px 10px 1px;
+  width: 90%;
+  height: 3rem;
+  font-weight: 700;
+  font-size: medium;
+  border: none;
+}
+
+.order-summary-component section .checkout .payment-button:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: rgba(88, 51, 255, 0.671);
+}
+
+.order-summary-component section .checkout a {
+  color: #7280a7;
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+  font-weight: 900;
+}
+
+.order-summary-component section .checkout a:hover {
+  color: rgba(21, 21, 25, 0.774);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* Links/Sources */
+.attribution {
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media only screen and (min-width: 500px) {
+  body {
+    background: #e0e8ff url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .order-summary-component {
+    text-align: center;
+    background: white;
+    height: 555px;
+    border-radius: 20px;
+    max-width: 375px;
+    -webkit-box-shadow: rgba(7, 12, 18, 0.096) 0px 10px 10px 1px;
+            box-shadow: rgba(7, 12, 18, 0.096) 0px 10px 10px 1px;
+  }
+  section .order-summary-text h1 {
+    font-size: 25px;
+    font-weight: 900;
+    padding: 1.5rem 0rem 1rem 0rem;
+  }
+  section .order-summary-text p {
+    color: #7280a7;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0rem 2.2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
